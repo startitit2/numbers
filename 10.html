@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
         body {
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            font-size: min(30vw, 200px);
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            overflow: hidden;
-            background: #fff;
-            color: #222;
+            display:grid;
+            place-items:center;
+            min-height:100vh;
+            font-family:'Bebas Neue',sans-serif;
+            font-size:clamp(64px, min(30vw, 30vh), 200px);
+            background:#fff;
+            color:#1a1a1a;
+            overflow:hidden;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
         }
     </style>
 </head>
